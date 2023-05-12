@@ -6,7 +6,7 @@ const divStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  height: "900px",
+  height: "980px",
   backgroundImage: "no-repeat",
   overflow: "hidden",
 };
