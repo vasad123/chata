@@ -6,34 +6,34 @@ const divStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  height: "980px",
-  backgroundImage: "no-repeat",
+  height:"800px",
+  
   overflow: "hidden",
 };
 const slideImages = [
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-536e-.jpeg",
+    url: "https://th.bing.com/th/id/R.af28f1c9f3911673b7838b7d131ae28f?rik=ocjrWgsD2Zyolg&pid=ImgRaw&r=0",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-f210-.jpeg",
+    url: "https://th.bing.com/th/id/R.7dabf8247640248e8b2b23ced57665d9?rik=2UMUd4DSQYtigQ&pid=ImgRaw&r=0",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-18c8-.jpeg",
+    url: "https://th.bing.com/th/id/OIP.s-blmytA_60Ee_NzD7K13gHaFj?w=240&h=180&c=7&r=0&o=5&pid=1.7",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-a5de-.jpeg",
+    url: "https://th.bing.com/th/id/OIP.w_zBKGQa9OSNUWSQA_f0FAEsDh?w=230&h=180&c=7&r=0&o=5&pid=1.7",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-0bc3-.jpeg",
+    url: "https://th.bing.com/th/id/OIP.XPadpWo9-XAlPXAfMs4RVQHaEK?w=274&h=180&c=7&r=0&o=5&pid=1.7",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-a186-.jpeg",
+    url: "https://th.bing.com/th/id/OIP.mH8mR6MZvLN7iEO4z94MpQHaFj?w=246&h=184&c=7&r=0&o=5&pid=1.7",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-8156-.jpeg",
+    url: "https://th.bing.com/th/id/OIP.vV5Z-HNHvU7rCQ9BT7gkrwHaFj?w=223&h=180&c=7&r=0&o=5&pid=1.7",
   },
   {
-    url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-485d-.jpeg",
+    url: "https://th.bing.com/th/id/OIP.ShUE2_SmKVsxnaCb5zWxpgHaFj?w=239&h=180&c=7&r=0&o=5&pid=1.7",
   },
   {
     url: "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-b65f-.jpeg",
@@ -65,6 +65,7 @@ export function Fotky() {
                   style={{
                     ...divStyle,
                     backgroundImage: `url(${slideImage.url})`,
+                    backgroundRepeat:` no-repeat`,
                   }}
                 ></div>
               </div>
