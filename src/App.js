@@ -119,9 +119,9 @@ function App() {
       </MDBContainer>
 
       <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
+         Email:
         <a className='text-dark' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+          fjsdakfljasdůklf@gmail.com
         </a>
       </div>
     </MDBFooter>
