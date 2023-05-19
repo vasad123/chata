@@ -26,7 +26,7 @@ function App() {
       <div id="page">
         <Navbar bg="light" variant="light">
           <Container>
-            <Navbar.Brand href="/">Chata U Kutnárů</Navbar.Brand>
+            <Navbar.Brand href="/">Chata <br></br>U Kutnárů</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/info">O nás</Nav.Link>
               <Nav.Link href="/fotky">Fotografie</Nav.Link>
@@ -43,7 +43,7 @@ function App() {
           <Route path="/kontakty" element={<Kontakty />} />
         </Routes>
         <div id="footer">
-        <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
+       <MDBFooter className='text-center text-white ' style={{ backgroundColor: '#f1f1f1' }}>
       <MDBContainer className='pt-4'>
         <section className='mb-4'>
           <MDBBtn
