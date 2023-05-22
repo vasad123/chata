@@ -46,24 +46,31 @@ bottom: -75%;
   align-items: center;
   padding-top: 5%;
   flex-direction: column;
-  background-color: whitesmoke;
+ background-color: whitesmoke;
   margin-top: 3%;
   border-radius: 5%;
 }
 .column3 {
   width: 15%;
   height: 100;
+ 
 }
 
 .wrap {
   display: flex;
+  z-index: -1;
   flex-direction: row;
   width: 100%;
   height: 110%;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 120%;
+ 
 }
 
 .firstTitle {
   font-size: 40px;
+
 }
 
 .secondTitle {
