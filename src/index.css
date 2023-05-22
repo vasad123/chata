@@ -20,44 +20,54 @@ code {
 #footer {
   position: absolute;
   width: 100%;
-bottom: -500px;
+bottom: -75%;
 
 }
 
 .column {
   width: 15%;
-  background-color: #e6e6e6;
+ 
   height: 100%;
 }
 
 .column2 {
   width: 70%;
-  height: 100%;
+  height:100% ;
   display: flex;
   align-items: center;
-  padding-top: 1.5%;
+  padding-top: 5%;
   flex-direction: column;
+  
 }
-
+#image-background{
+  width: 80%;
+  height:85% ;
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin-top: 3%;
+  border-radius: 5%;
+}
 .column3 {
   width: 15%;
-  height: 100%;
-  background-color: #e6e6e6;
+  height: 100;
 }
 
 .wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 110%;
 }
 
 .firstTitle {
   font-size: 40px;
-  background-color: purple;
 }
 
 .secondTitle {
-  background-color: red;
+ 
   text-align: center;
 }
 .secondTitle span {
@@ -65,3 +75,17 @@ bottom: -500px;
 }
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
+@media only screen and (max-width: 600px) {
+  #page{
+    height: 1000px;
+    width:100%;
+  }
+  #footer{
+    bottom:-50%;
+  }
+
+.imageslider{
+  width:300px;
+}
+
+}

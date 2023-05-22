@@ -45,7 +45,8 @@ const images = [
       "https://www.e-chalupy.cz/kokorinsko/_15931/u-kutnaru-485d-.jpeg",
   },
   {
-    original: "https://www.e-chalupy.cz/kokorinsko/_15931/94fc3130-1545-4921-ba4d-34d657acd580-2d1f-.jpeg",
+    original:
+      "https://www.e-chalupy.cz/kokorinsko/_15931/94fc3130-1545-4921-ba4d-34d657acd580-2d1f-.jpeg",
     thumbnail:
       "https://www.e-chalupy.cz/kokorinsko/_15931/94fc3130-1545-4921-ba4d-34d657acd580-2d1f-.jpeg",
   },
@@ -56,7 +57,9 @@ export function Fotky() {
     <div class="wrap">
       <div class="column"></div>
       <div class="column2">
-        <ImageGallery items={images} />
+        <div id="image-background">
+        <div class ="imageslider">  <ImageGallery items={images} /></div>
+        </div>
       </div>
       <div class="column3"></div>
     </div>
