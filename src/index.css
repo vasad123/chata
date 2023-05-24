@@ -20,7 +20,7 @@ code {
 #footer {
   position: absolute;
   width: 100%;
-bottom: -75%;
+bottom: -100%;
 
 }
 
@@ -37,7 +37,6 @@ bottom: -75%;
   align-items: center;
   padding-top: 5%;
   flex-direction: column;
-  
 }
 #image-background{
   width: 80%;
@@ -79,6 +78,20 @@ bottom: -75%;
 }
 .secondTitle span {
   font-size: 25px;
+}
+
+.kontakty {
+  margin-top: 5%;
+  width: 50%;
+  text-align: center;
+}
+
+.img-kontakty-kytka {
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
