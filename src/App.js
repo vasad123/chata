@@ -24,7 +24,7 @@ function App() {
     <>
   
       <div id="page">
-        <Navbar bg="light" variant="light">
+        <Navbar bg="success" variant="dark" >
           <Container>
             <Navbar.Brand href="/">Chata <br></br>U Kutnárů</Navbar.Brand>
             <Nav className="me-auto">
@@ -32,6 +32,7 @@ function App() {
               <Nav.Link href="/fotky">Fotografie</Nav.Link>
               <Nav.Link href="/cenik">Ceník</Nav.Link>
               <Nav.Link href="/kontakty">Kontakty</Nav.Link>
+              <Nav.Link href="/kontakty">Ubytování</Nav.Link>
             </Nav>
           </Container>
         </Navbar>{" "}
@@ -45,7 +46,7 @@ function App() {
         <div id="footer">
        <MDBFooter className='text-center text-white ' style={{ backgroundColor: '#f1f1f1' }}>
     
-      <div className='text-center text-dark p-3' style={{ backgroundColor: 'lightgray' }}>
+      <div className='text-center text-dark p-3' style={{ backgroundColor: '#198754' }}>
       <p><b>Chata U Kutnárů</b><br></br>
       tel.: +420 731 556 023<br></br>
       Adresa: Hradčany 431 
