@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Cenik } from "./Packages/cenik";
 import { Fotky } from "./Packages/fotky";
-import { Info } from "./Packages/info";
+import { Ubytovani } from "./Packages/ubytovani";
 import { Kontakty } from "./Packages/kontakty";
 import { Home } from "./Packages/home";
 import {
@@ -22,39 +22,44 @@ import Navbar from "react-bootstrap/Navbar";
 function App() {
   return (
     <>
-  
       <div id="page">
-        <Navbar bg="success" variant="dark" >
+        <Navbar bg="success" variant="dark">
           <Container>
-            <Navbar.Brand href="/">Chata <br></br>U Kutnárů</Navbar.Brand>
+            <Navbar.Brand href="/">
+              Chata <br></br>U Kutnárů
+            </Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="/info">O nás</Nav.Link>
+              <Nav.Link href="/ubytovani">Ubytovani</Nav.Link>
               <Nav.Link href="/fotky">Fotografie</Nav.Link>
               <Nav.Link href="/cenik">Ceník</Nav.Link>
               <Nav.Link href="/kontakty">Kontakty</Nav.Link>
-              <Nav.Link href="/kontakty">Ubytování</Nav.Link>
             </Nav>
           </Container>
         </Navbar>{" "}
         <Routes>
-        <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/cenik" element={<Cenik />} />
           <Route path="/fotky" element={<Fotky />} />
-          <Route path="/info" element={<Info />} />{" "}
+          <Route path="/ubytovani" element={<Ubytovani />} />{" "}
           <Route path="/kontakty" element={<Kontakty />} />
         </Routes>
         <div id="footer">
-       <MDBFooter className='text-center text-white ' style={{ backgroundColor: '#f1f1f1' }}>
-    
-      <div className='text-center text-dark p-3' style={{ backgroundColor: '#198754' }}>
-      <p><b>Chata U Kutnárů</b><br></br>
-      tel.: +420 731 556 023<br></br>
-      Adresa: Hradčany 431 
-      471 24 Ralsko
-      </p>
-      </div>
-    </MDBFooter>
-        
+          <MDBFooter
+            className="text-center text-white "
+            style={{ backgroundColor: "#f1f1f1" }}
+          >
+            <div
+              className="text-center text-dark p-3"
+              style={{ backgroundColor: "#198754" }}
+            >
+              <p>
+                <b>Chata U Kutnárů</b>
+                <br></br>
+                tel.: +420 731 556 023<br></br>
+                Adresa: Hradčany 431 471 24 Ralsko
+              </p>
+            </div>
+          </MDBFooter>
         </div>
       </div>
     </>

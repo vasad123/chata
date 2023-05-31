@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import ImageGallery from "react-image-gallery";
+import mainLogo from'../img/mapa.png';
 
 const images = [
   {
@@ -58,8 +59,12 @@ export function Fotky() {
       <div class="column"></div>
       <div class="column2">
         <div id="image-background">
-        <div class ="imageslider">  <ImageGallery items={images} /></div>
+          <div class="imageslider">
+            {" "}
+            <ImageGallery items={images} />
+          </div>
         </div>
+        <img src={mainLogo} id = "img-mapa"></img>
       </div>
       <div class="column3"></div>
     </div>
