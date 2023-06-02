@@ -11,19 +11,20 @@ export function Kontakty() {
           ></img>
 
           <div class="kontakty">
-            <h2>Zavolejte nám</h2> <br></br>
+            <h2><u>Zavolejte nám</u></h2> <br></br>
             <p>
-              Václav Moucha <br></br>
-              tel.: + 420 777 872 019 <br></br>
+              Kutnár <br></br>
+              tel.: + 420  731 556 023 | 603 486 680 <br></br>
               roubenkaella@gmail.com <br></br>
-              Krkonošská 926 <br></br>
-              Desná III, 468 61 Desná <br></br>
+              Hradčany 431 <br></br>
+              471 24 Ralsko <br></br>
               <br></br>
               <br></br>
-              <h4>Provozovatel</h4>
-              Monika Mayer <br></br>
+              <h4><u>Provozovatel</u></h4>
+              Kutnár <br></br>
               IČO: 87691809 <br></br>
-              Fakturační adresa: Na Pazderně 476, 252 67, Tuchoměřice <br></br>
+              Fakturační adresa: Hradčany 431 
+              471 24 Ralsko
             </p>
           </div>
           <div class="img-kontakty-kytka">
