@@ -294,4 +294,10 @@ code {
     border-radius: 40%;
     padding-top: 25px;
   }
+  #navbarcontainer{
+    font-size: 10px;
+  }
+  #titleInAppjs{
+    font-size: 15px;
+  }
 }

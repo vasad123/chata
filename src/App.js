@@ -27,10 +27,10 @@ function App() {
         <title>Chata U Kutnárů</title>
       </Helmet>
       <div id="page">
-        <Navbar bg="success" variant="dark">
-          <Container>
+        <Navbar bg="success" variant="dark" >
+          <Container id ="navbarcontainer" >
             <Navbar.Brand href="/">
-              Chata <br></br>U Kutnárů
+              <div id="titleInAppjs">Chata <br></br>U Kutnárů</div>
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/ubytovani">Ubytovani</Nav.Link>
