@@ -6,6 +6,7 @@ import { Fotky } from "./Packages/fotky";
 import { Ubytovani } from "./Packages/ubytovani";
 import { Kontakty } from "./Packages/kontakty";
 import { Home } from "./Packages/home";
+import { Helmet } from 'react-helmet';
 import {
   MDBFooter,
   MDBContainer,
@@ -22,6 +23,9 @@ import Navbar from "react-bootstrap/Navbar";
 function App() {
   return (
     <>
+   <Helmet>
+        <title>Chata U Kutnárů</title>
+      </Helmet>
       <div id="page">
         <Navbar bg="success" variant="dark">
           <Container>
